@@ -968,8 +968,7 @@ button {
     justify-content: center;
 }
 .SingleCol__Column{
-    margin-top: 200px;
-    text-align: center;
+    margin-top: 100px;
 }
 .SingleCol__HeaderContent{
     display: flex;
@@ -982,3 +981,317 @@ button {
     --tw-text-opacity: 1;
     color: rgb(100 21 255 / var(--tw-text-opacity));
 }
+.fPVwLP {
+    width: 100%;
+}
+.gaeLuF {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    margin-bottom: 20px;
+}
+.dQRFzZ {
+    width: 100%;
+    text-align: center;
+}
+
+.SingleCol__Description {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; /* Centers the description within the container */
+    padding: 0; /* Remove any padding that might be causing misalignment */
+}
+.bhSrBo {
+    margin-bottom: 0.5rem; /* Reduce the space between the subheading and heading */
+    text-align: center;
+}
+
+.koDYDN {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0; /* Ensure some padding for spacing */
+}
+
+.SingleCol__FAQ {
+    margin-top: 1.5rem; /* Add spacing above the FAQ question */
+    text-align: left;
+}
+
+.fSCvgS {
+    margin-top: 1.25rem;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(237 242 247 / var(--tw-bg-opacity));
+    padding: 1.25rem 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(45 55 72 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+.dUGOWw {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.lfzDNh {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+/* Container holding the entire section */
+.GetStarted__Row {
+    display: flex;
+    flex-direction: row; /* Horizontal alignment */
+    justify-content: space-between; /* Space between text and buttons */
+    align-items: center; /* Vertically align items */
+    padding: 0 32px; /* Padding around the entire section */
+    margin: 0 auto;
+    max-width: 1280px; /* Limit the width of the row */
+    background-color: #6C2BD9; /* Background color for the section */
+    border-radius: 16px; /* Round the corners */
+}
+
+/* Container for text and buttons */
+.GetStarted__ColumnContainer {
+    display: flex;
+    flex-direction: row; /* Stack text and buttons vertically */
+    align-items: flex-start; /* Align text to the left */
+    justify-content: space-around; /* Center content vertically */
+    max-width: 480px; /* Limit width of the text container */
+}
+
+/* Text styling */
+.cNPcGG {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(247, 250, 252); /* White color for text */
+    margin-bottom: 1rem; /* Space between text and buttons */
+    word-break: break-word; /* Prevent overflow by breaking long words */
+    text-align: left; /* Align text to the left */
+}
+
+/* Button container */
+.bISexO {
+    display: flex;
+    flex-direction: row; /* Align buttons horizontally */
+    justify-content: flex-start; /* Align buttons to the left */
+    align-items: center; /* Ensure buttons are vertically centered */
+    gap: 1rem; /* Space between buttons */
+    margin-top: 1.5rem; /* Space above the buttons */
+}
+
+/* Buttons */
+.lmHNcs, .eLyhTh {
+    margin-right: 20px;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-radius: 9999px; /* Fully rounded corners */
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms; /* Smooth transition for hover effects */
+}
+
+/* Specific button adjustments */
+.lmHNcs {
+    background-color: rgb(245, 101, 101); /* Red background */
+    color: rgb(247, 250, 252); /* White text */
+    border: none; /* No border */
+}
+
+.eLyhTh {
+    background-color: transparent; /* Transparent background */
+    border: 1px solid rgb(160, 174, 192); /* Light gray border */
+    color: rgb(247, 250, 252); /* White text */
+}
+
+/* Adding hover effects */
+.lmHNcs:hover {
+    background-color: rgb(229, 62, 62); /* Darker red on hover */
+}
+
+.eLyhTh:hover {
+    background-color: rgb(160, 174, 192); /* Gray background on hover */
+    color: rgb(26, 32, 44); /* Darker text on hover */
+}
+
+.zCkII {
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+.GetStarted__PrimaryBackgroundContainer{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.coJPtL {
+    position: relative;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding: 5rem 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+}
+
+.iKlRYw {
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+.hgIwoE {
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.FiveColumnWithBackground__Column{
+    justify-content: space-around;
+}
+
+/* Container for columns */
+.FiveColumnWithBackground__Column {
+    flex: 1;
+    padding: 1rem 2rem; /* Adjust padding to space columns horizontally */
+}
+
+.jhcLjl {
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the top */
+}
+
+.kHMfVa {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 1.25rem; /* Increase spacing below headings */
+}
+
+.kTXhVj {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: block;
+}
+
+.dVxpTx {
+    margin-top: 0.85rem; /* Slightly increase spacing between list items */
+    text-align: left;
+}
+
+.hihAEZ {
+    border-bottom-width: 2px;
+    border-color: transparent;
+    padding-bottom: 0.25rem;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    display: block;
+    color: white;
+}
+
+.kLEFbT {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    border-bottom-width: 2px;
+    --tw-border-opacity: 1;
+    border-color: rgb(116 44 255 / var(--tw-border-opacity));
+}
+
+.hGDlbo {
+    width: 2rem;
+}
+.FiveColumnWithBackground__ThreeColRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.FiveColumnWithBackground__LogoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kfBaHq {
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+}
+.ePeMrm {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(203 213 224 / var(--tw-text-opacity));
+}
+.FiveColumnWithBackground__SocialLinksContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.hCMBWt {
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 50%; /* Ensures the shape is circular */
+    --tw-bg-opacity: 1;
+    background-color: rgb(247 250 252 / var(--tw-bg-opacity));
+    display: flex;
+    align-items: center; /* Centers icon vertically */
+    justify-content: center; /* Centers icon horizontally */
+    padding: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(26 32 44 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+    width: 32px;
+    height: 32px; /* Set height equal to width */
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .GetStarted__Row {
+        flex-direction: column; /* Stack text and buttons vertically on small screens */
+        padding: 16px; /* Less padding on small screens */
+    }
+
+    .bISexO {
+        justify-content: center; /* Center buttons on small screens */
+        flex-direction: column; /* Stack buttons vertically on small screens */
+    }
+
+    .GetStarted__ColumnContainer {
+        max-width: 100%; /* Full width text container on small screens */
+        text-align: center; /* Center text on small screens */
+    }
+
+    .cNPcGG {
+        text-align: center; /* Center text on small screens */
+    }
+}
+
