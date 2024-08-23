@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-    <script src="script_new.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -20,21 +20,26 @@
                         <img class="logo" src="./images/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Logo">
                         <span class="logo-text">Treact</span>
                     </div>
-                </div>
-                <div class="row nav__links">
-                    <ul>
-                        <li class="horizonalign"><a href="#" class="nav__link">About</a></li>
-                        <li class="horizonalign"><a href="#" class="nav__link">Blog</a></li>
-                        <li class="horizonalign"><a href="#" class="nav__link">Pricing</a></li>
-                        <li class="horizonalign"><a href="#" class="nav__link">Contact Us</a></li>
-                    </ul>
-                    <div class="enrollment_container">
+                    <div class="nav__links active off-screen-menu">
                         <ul>
+                            <li class="horizonalign"><a href="#" class="nav__link">About</a></li>
+                            <li class="horizonalign"><a href="#" class="nav__link">Blog</a></li>
+                            <li class="horizonalign"><a href="#" class="nav__link">Pricing</a></li>
+                            <li class="horizonalign"><a href="#" class="nav__link">Contact Us</a></li>
                             <li class="horizonalign"><a href="#" class="nav__link">Login</a></li>
-                            <li><a href="#" class="nav__link fjKnrY jspWot signup">Sign Up</a></li>
+                            <li><a href="#" class="horizonalign signup nav__link">Sign Up</a></li>
                         </ul>
                     </div>
+                    <button class="hamburger-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
                 </div>
+                
             </div>
         </nav>
         <header>
@@ -45,9 +50,9 @@
                         Our templates are easy to setup, understand and customize. Fully modular components with a
                         variety of pages and components.
                     </p>
-                    <div class="twoColumnInputWithActions gQkmRz">
-                        <input class="gQkmRz" type="text" placeholder="Your E-mail Address">
-                        <button>Get Started</button>
+                    <div class="twoColumnInputWithActions">
+                        <input  type="text" placeholder="Your E-mail Address">
+                        <button class="get_started">Get Started</button>
                     </div>
                     <div class="TwoColumnWithInput__CustomersLogoStrip">
                         <p class="trusted-customers-text">OUR TRUSTED CUSTOMERS</p>
@@ -62,26 +67,25 @@
                     </figure>
                 </div>
             </div>
-
             <div>
                 <section>
                     <div class="ThreeColWithSideImage__Container">
                         <div class="ThreeColWithSideImage__ThreeColumnContainer kiBuxN">
                             <h5 class="ThreeColWithSideImage__Subheading">
-                                <span class="SaaSProductLandingPage__Subheading purple padding fopWbI">FEATURES</span>
+                                <span class="SaaSProductLandingPage__Subheading purple fopWbI">FEATURES</span>
                             </h5>
-                            <h2 class="ThreeColWithSideImage__Heading padding gaeLuF">
+                            <h2 class="ThreeColWithSideImage__Heading">
                                 We have Amazing <span
                                     class="SaaSProductLandingPage__HighlightedText purple">Service.</span>
                             </h2>
-                            <p class="ThreeColWithSideImage__Description padding cvGnkt">Lorem ipsum dolor sit amet
+                            <p class="ThreeColWithSideImage__Description">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Nemo corrupti, repellat nostrum velit dolor similique
                                 earum odio possimus?</p>
                             <div class="ThreeColWithSideImage__VerticalSpacer"></div>
                             <div class="ThreeColWithSideImage__Column">
-                                <div class="ThreeColWithSideImage__Card">
+                                <div class="ThreeColWithSideImage__Card hJrmjh">
                                     <span class="imageContainer circle">
-                                        <img src="images/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+                                        <img class="sheildIcon" src="images/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
                                     </span>
                                     <span class="textContainer">
                                         <span class="title">Secure</span>
@@ -89,7 +93,7 @@
                                             security.</p>
                                     </span>
                                 </div>
-                                <div class="ThreeColWithSideImage__Card">
+                                <div class="ThreeColWithSideImage__Card hJrmjh">
                                     <span class="imageContainer circle">
                                         <img src="images/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
                                     </span>
@@ -99,7 +103,7 @@
                                             Nihil!</p>
                                     </span>
                                 </div>
-                                <div class="ThreeColWithSideImage__Card">
+                                <div class="ThreeColWithSideImage__Card hJrmjh">
                                     <span class="imageContainer circle">
                                         <img src="images/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
                                     </span>
@@ -109,7 +113,7 @@
                                             Nesciunt?</p>
                                     </span>
                                 </div>
-                                <div class="ThreeColWithSideImage__Card">
+                                <div class="ThreeColWithSideImage__Card hJrmjh">
                                     <span class="imageContainer circle">
                                         <img src="images/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
                                     </span>
@@ -119,7 +123,7 @@
                                             Ipsam?</p>
                                     </span>
                                 </div>
-                                <div class="ThreeColWithSideImage__Card">
+                                <div class="ThreeColWithSideImage__Card hJrmjh">
                                     <span class="imageContainer circle">
                                         <img src="images/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
                                     </span>
@@ -129,7 +133,7 @@
                                             Molestias!</p>
                                     </span>
                                 </div>
-                                <div class="ThreeColWithSideImage__Card">
+                                <div class="ThreeColWithSideImage__Card hJrmjh">
                                     <span class="imageContainer circle">
                                         <img src="images/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="">
                                     </span>
@@ -147,152 +151,29 @@
             <div>
                 <section style="transform: none;">
                     <div class="TwoColWithButton__Container">
-                        <div class="TwoColWithButton__TwoColumn dHgWux">
+                        <div class="TwoColWithButton__TwoColumn">
                             <div class="TwoColWithButton__Column__ImageColumn">
                                 <img src="images/hero-screenshot-1.40a097b525c2f8c9808e.png" alt=""
                                     class="hero_screenshot">
                                 <svg viewBox="0 0 1280 1280"
-                                    class="TwoColWithButton__DecoratorBlob-sc-ubbpq0-7 TwoColWithButton___StyledDecoratorBlob-sc-ubbpq0-8 hvcIht"></svg>
+                                    class="TwoColWithButton__DecoratorBlob TwoColWithButton___StyledDecoratorBlob"></svg>
                             </div>
-                            <div class="TwoColWithButton__Column__TextColumn fPSJzp">
+                            <div class="TwoColWithButton__Column__TextColumn">
                                 <h5 class="TwoColWithButton__Subheading">
-                                    <span class="SaaSProductLandingPage__Subheading fopWbI">Quality Work</span>
+                                    <span class="SaaSProductLandingPage__Subheading">Quality Work</span>
                                 </h5>
-                                <h2 class="TwoColWithButton__Heading bYFwyp">
+                                <h2 class="TwoColWithButton__Heading">
                                     Designed & Developed by <span
-                                        class="TwoColWithButton___StyledSpan jfGsdN">Professionals.</span>
+                                        class="TwoColWithButton___StyledSpan purple">Professionals.</span>
                                 </h2>
                                 <p class="TwoColWithButton__Description cIcKnC">Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                                     ex ea commodo consequat.</p>
-                                <a href="https://timerse.com" class="TwoColWithButton__PrimaryButton cgAoRA">Learn
+                                <a href="https://timerse.com" class="TwoColWithButton__PrimaryButton">Learn
                                     More</a>
                             </div>
 
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <div class="TwoColWithSteps__Container">
-                        <div class="TwoColWithSteps__TwoColumn">
-                            <div class="TwoColWithSteps__Column TwoColWithSteps__ImageColumn">
-                                <img src="images/hero-screenshot-2.241aac1fbc66db29d873.png" alt=""
-                                    class="TwoColWithSteps__Image">
-                            </div>
-                            <div class="TwoColWithSteps__Column TwoColWithSteps__TextColumn">
-                                <h5 class="TwoColWithSteps__Subheading">
-                                    <span class="SaaSProductLandingPage__Subheading purple">STEPS</span>
-                                </h5>
-                                <h2 class="TwoColWithSteps__Heading">
-                                    Easy to <span class="SaaSProductLandingPage__HighlightedText purple">Get
-                                        Started</span>
-                                </h2>
-                                <ul class="TwoColWithSteps__Steps fGabHA">
-                                    <li class="TwoColWithSteps__Step">
-                                        <div class="TwoColWithSteps__StepNumber gyxpyV">01</div>
-                                        <div class="TwoColWithSteps__StepText">
-                                            <h6 class="TwoColWithSteps__StepHeading bwIZzX">Register</h6>
-                                            <p class="TwoColWithSteps__StepDescription fdQBWG">Create an account with us
-                                                using Google or Facebook.</p>
-                                        </div>
-                                    </li>
-                                    <li class="TwoColWithSteps__Step">
-                                        <div class="TwoColWithSteps__StepNumber gyxpyV">02</div>
-                                        <div class="TwoColWithSteps__StepText">
-                                            <h6 class="TwoColWithSteps__StepHeading bwIZzX">Download</h6>
-                                            <p class="TwoColWithSteps__StepDescription fdQBWG">Browse and Download the
-                                                template that you like from the marketplace.</p>
-                                        </div>
-                                    </li>
-                                    <li class="TwoColWithSteps__Step">
-                                        <div class="TwoColWithSteps__StepNumber gyxpyV">03</div>
-                                        <div class="TwoColWithSteps__StepText">
-                                            <h6 class="TwoColWithSteps__StepHeading bwIZzX">Run</h6>
-                                            <p class="TwoColWithSteps__StepDescription fdQBWG">Follow the instructions
-                                                to setup and customize the template to your needs.</p>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div>
-                <section>
-                    <div class="TwoColWithTwoHorizontalFeaturesAndButton__Container">
-                        <div class="TwoColWithTwoHorizontalFeaturesAndButton__TwoColumn">
-                            <div
-                                class="TwoColWithTwoHorizontalFeaturesAndButton__Column TwoColWithTwoHorizontalFeaturesAndButton__ImageColumn">
-                                <img src="images/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt=""
-                                    class="TwoColWithTwoHorizontalFeaturesAndButton__Image">
-                            </div>
-                            <div
-                                class="TwoColWithTwoHorizontalFeaturesAndButton__Column TwoColWithTwoHorizontalFeaturesAndButton__TextColumn">
-                                <h5 class="TwoColWithTwoHorizontalFeaturesAndButton__Subheading purple">
-                                    <span class="SaaSProductLandingPage__Subheading">VALUES</span>
-                                </h5>
-                                <h2 class="TwoColWithTwoHorizontalFeaturesAndButton__Heading ">We Always Abide by Our
-                                    <span class="SaaSProductLandingPage__HighlightedText purple">Principles.</span>
-                                </h2>
-                                <p class="TwoColWithTwoHorizontalFeaturesAndButton__Description">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores laboriosam,
-                                    repellendus dolor voluptatibus asperiores dolorum necessitatibus tenetur dicta iure
-                                    in facilis excepturi facere deserunt! Quod dolore earum amet est minus, officiis
-                                    exercitationem, nulla aliquam perspiciatis molestiae similique! Impedit adipisci,
-                                    vero maiores quibusdam delectus laboriosam. Nihil itaque eos odit id quaerat.
-                                </p>
-                                <div class="TwoColWithTwoHorizontalFeaturesAndButton__Features">
-                                    <div class="TwoColWithTwoHorizontalFeaturesAndButton__Feature ggAGDn">
-                                        <div class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeadingContainer">
-                                            <div
-                                                class="QxNOg TwoColWithTwoHorizontalFeaturesAndButton__FeatureIconContainer fMLuGy">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-dollar-sign">
-                                                    <line x1="12" y1="1" x2="12" y2="23"></line>
-                                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                                                </svg>
-                                            </div>
-                                            <div class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeading">
-                                                Affordable
-                                            </div>
-                                        </div>
-                                        <div class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureDescription">We
-                                            promise to offer you the best rate we can - at par with the industry
-                                            standard.</div>
-                                    </div>
-                                    <div class="TwoColWithTwoHorizontalFeaturesAndButton__Feature ggAGDn">
-                                        <div class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeadingContainer">
-                                            <div
-                                                class="QxNOg TwoColWithTwoHorizontalFeaturesAndButton__FeatureIconContainer bpmslc">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-briefcase">
-                                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                                                </svg>
-                                            </div>
-                                            <div class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeading">
-                                                Professionalism
-                                            </div>
-                                        </div>
-                                        <div class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureDescription">We
-                                            promise to offer you the best rate we can - at par with the industry
-                                            standard.
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="https://timerse.com"
-                                    class="TwoColWithTwoHorizontalFeaturesAndButton__PrimaryButton cgAoRA XXVLt">Learn
-                                    More</a>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -300,79 +181,61 @@
             <div>
                 <div>
                     <section>
-                        <div class="ThreePlans__Container">
-                            <div class="ThreePlans__HeaderContainer">
-                                <h5 class="ThreePlans__Subheading purple">
-                                    <span class="SaaSProductLandingPage__Subheading plan__heading ">Pricing</span>
-                                </h5>
-                                <h2 class="ThreePlans__Heading">Reasonable & Flexible
-                                    <span class="SaaSProductLandingPage__HighlightedText purple">Plans.</span>
-                                </h2>
-                                <p class="ThreePlans__Description">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Quidem error alias nostrum deserunt architecto possimus perspiciatis?
-                                </p>
-                            </div>
-                            <div class="ThreePlans__PlansContainer jpfUVe">
-                                <div class="ThreePlans__Plan jOTbwA">
-                                    <div class="ThreePlans___StyledDiv geSfko planHighlight"></div>
-                                    <div class="ThreePlans__PlanHeader ggTVls">
-                                        <span class="name">Personal</span>
-                                        <span class="price">$17.99</span>
-                                        <span class="duration">Monthly</span>
-                                    </div>
-                                    <div class="ThreePlans__PlanFeatures iYjwtg">
-                                        <span class="feature mainFeature">For Individuals</span>
-                                        <span class="feature">30 Templates</span>
-                                        <span class="feature">7 Landing Pages</span>
-                                        <span class="feature">12 Internal Pages</span>
-                                        <span class="feature">Basic Assistance</span>
-                                    </div>
-                                    <div class="ThreePlans__PlanAction dOnGPJ">
-                                        <button
-                                            class="ThreePlans__BuyNowButton ThreePlans___StyledBuyNowButton cgAoRA hUyVug leQIMz">Buy
-                                            Now</button>
-                                    </div>
+                        <div class="TwoColWithSteps__Container">
+                            <div class="TwoColWithSteps__TwoColumn">
+                                <div class="TwoColWithSteps__Column TwoColWithSteps__ImageColumn">
+                                    <img src="images/hero-screenshot-2.241aac1fbc66db29d873.png" alt=""
+                                        class="TwoColWithSteps__Image">
+                                    <svg class="monitorPattern" width="200" height="100"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <pattern id="dots-pattern" x="0" y="0" width="20" height="20"
+                                                patternUnits="userSpaceOnUse">
+                                                <circle cx="10" cy="10" r="5" fill="#D3BFF0" />
+                                            </pattern>
+                                        </defs>
+
+                                        <rect width="200" height="100" fill="url(#dots-pattern)" />
+                                    </svg>
                                 </div>
-                                <div class="ThreePlans__Plan bMXqgj">
-                                    <div class="ThreePlans___StyledDiv  planHighlight"></div>
-                                    <div class="ThreePlans__PlanHeader ggTVls">
-                                        <span class="name">Business</span>
-                                        <span class="price">$37.99</span>
-                                        <span class="duration">Monthly</span>
-                                    </div>
-                                    <div class="ThreePlans__PlanFeatures iYjwtg">
-                                        <span class="feature mainFeature">For Businesses</span>
-                                        <span class="feature">60 Templates</span>
-                                        <span class="feature">15 Landing Pages</span>
-                                        <span class="feature">22 Internal Pages</span>
-                                        <span class="feature">Priority Assistance</span>
-                                    </div>
-                                    <div class="ThreePlans__PlanAction dOnGPJ">
-                                        <button
-                                            class="ThreePlans__BuyNowButton-sc-y6gvsl-9 ThreePlans___StyledBuyNowButton cgAoRA hUyVug leQIMz bMXqgj">Buy
-                                            Now</button>
-                                    </div>
-                                </div>
-                                <div class="ThreePlans__Plan jOTbwA">
-                                    <div class="ThreePlans___StyledDiv iTtwJU planHighlight"></div>
-                                    <div class="ThreePlans__PlanHeader ggTVls">
-                                        <span class="name">ENTERPRISE</span>
-                                        <span class="price">$57.99</span>
-                                        <span class="duration">Monthly</span>
-                                    </div>
-                                    <div class="ThreePlans__PlanFeatures iYjwtg">
-                                        <span class="feature mainFeature">For Large Companies</span>
-                                        <span class="feature">90 Templates</span>
-                                        <span class="feature">27 Landing Pages</span>
-                                        <span class="feature">37 Internal Pages</span>
-                                        <span class="feature">Personal Assistance</span>
-                                    </div>
-                                    <div class="ThreePlans__PlanAction dOnGPJ">
-                                        <button
-                                            class="ThreePlans__BuyNowButton ThreePlans___StyledBuyNowButton cgAoRA hUyVug leQIMz">Buy
-                                            Now</button>
-                                    </div>
+                                <div class="TwoColWithSteps__Column TwoColWithSteps__TextColumn">
+                                    <h5 class="TwoColWithSteps__Subheading">
+                                        <span class="SaaSProductLandingPage__Subheading purple">STEPS</span>
+                                    </h5>
+                                    <h2 class="TwoColWithSteps__Heading">
+                                        Easy to <span class="SaaSProductLandingPage__HighlightedText purple">Get
+                                            Started</span>
+                                    </h2>
+                                    <ul class="TwoColWithSteps__Steps">
+                                        <li class="TwoColWithSteps__Step">
+                                            <div class="TwoColWithSteps__StepNumber">01</div>
+                                            <div class="TwoColWithSteps__StepText">
+                                                <h6 class="TwoColWithSteps__StepHeading">Register</h6>
+                                                <p class="TwoColWithSteps__StepDescription">Create an account
+                                                    with us
+                                                    using Google or Facebook.</p>
+                                            </div>
+                                        </li>
+                                        <li class="TwoColWithSteps__Step">
+                                            <div class="TwoColWithSteps__StepNumber">02</div>
+                                            <div class="TwoColWithSteps__StepText">
+                                                <h6 class="TwoColWithSteps__StepHeading">Download</h6>
+                                                <p class="TwoColWithSteps__StepDescription">Browse and Download
+                                                    the
+                                                    template that you like from the marketplace.</p>
+                                            </div>
+                                        </li>
+                                        <li class="TwoColWithSteps__Step">
+                                            <div class="TwoColWithSteps__StepNumber">03</div>
+                                            <div class="TwoColWithSteps__StepText">
+                                                <h6 class="TwoColWithSteps__StepHeading">Run</h6>
+                                                <p class="TwoColWithSteps__StepDescription">Follow the
+                                                    instructions
+                                                    to setup and customize the template to your needs.</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -380,53 +243,205 @@
                 </div>
             </div>
             <div>
+                <div>
+                    <section>
+                        <div>
+                            <section>
+                                <div class="TwoColWithTwoHorizontalFeaturesAndButton__Container">
+                                    <div class="TwoColWithTwoHorizontalFeaturesAndButton__TwoColumn">
+                                        <div
+                                            class="TwoColWithTwoHorizontalFeaturesAndButton__Column TwoColWithTwoHorizontalFeaturesAndButton__ImageColumn">
+                                            <img src="images/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+                                                alt="" class="TwoColWithTwoHorizontalFeaturesAndButton__Image">
+                                        </div>
+                                        <div
+                                            class="TwoColWithTwoHorizontalFeaturesAndButton__Column TwoColWithTwoHorizontalFeaturesAndButton__TextColumn">
+                                            <h5 class="TwoColWithTwoHorizontalFeaturesAndButton__Subheading purple">
+                                                <span class="SaaSProductLandingPage__Subheading">VALUES</span>
+                                            </h5>
+                                            <h2 class="TwoColWithTwoHorizontalFeaturesAndButton__Heading ">We Always
+                                                Abide by Our
+                                                <span
+                                                    class="SaaSProductLandingPage__HighlightedText purple">Principles.</span>
+                                            </h2>
+                                            <p class="TwoColWithTwoHorizontalFeaturesAndButton__Description">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                                reprehenderit excepturi, molestias laudantium veritatis assumenda facere
+                                                voluptates ab, unde libero quo tenetur consequatur, iure expedita animi
+                                                nam omnis labore repellendus!
+                                            </p>
+                                            <div class="TwoColWithTwoHorizontalFeaturesAndButton__Features">
+                                                <div class="TwoColWithTwoHorizontalFeaturesAndButton__Feature">
+                                                    <div
+                                                        class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeadingContainer">
+                                                        <div
+                                                            class="QxNOg TwoColWithTwoHorizontalFeaturesAndButton__FeatureIconContainer valuesIcon moneyIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="feather feather-dollar-sign">
+                                                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                                                <path
+                                                                    d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <div
+                                                            class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeading">
+                                                            Affordable
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureDescription">
+                                                        We
+                                                        promise to offer you the best rate we can - at par with the
+                                                        industry
+                                                        standard.</div>
+                                                </div>
+                                                <div class="TwoColWithTwoHorizontalFeaturesAndButton__Feature">
+                                                    <div
+                                                        class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeadingContainer">
+                                                        <div
+                                                            class="QxNOg TwoColWithTwoHorizontalFeaturesAndButton__FeatureIconContainer valuesIcon breifcaseIcon">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                height="24" viewBox="0 0 24 24" fill="none"
+                                                                stroke="currentColor" stroke-width="2"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                class="feather feather-briefcase">
+                                                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2">
+                                                                </rect>
+                                                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                        <div
+                                                            class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureHeading">
+                                                            Professionalism
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="TwoColWithTwoHorizontalFeaturesAndButton__FeatureDescription">
+                                                        We
+                                                        promise to offer you the best rate we can - at par with the
+                                                        industry
+                                                        standard.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="https://timerse.com"
+                                                class="TwoColWithTwoHorizontalFeaturesAndButton__PrimaryButton cgAoRA XXVLt">Learn
+                                                More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="ThreePlans__Container_new">
+                <div class="ThreePlans__HeaderContainer_new">
+                    <h5 class="ThreePlans__Subheading_new purple">
+                        <span class="SaaSProductLandingPage__Subheading plan__heading ">Pricing</span>
+                    </h5>
+                    <h2 class="ThreePlans__Heading">Reasonable & Flexible
+                        <span class="SaaSProductLandingPage__HighlightedText purple">Plans.</span>
+                    </h2>
+                    <p class="ThreePlans__Description">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Quidem error alias nostrum deserunt architecto possimus perspiciatis?
+                    </p>
+                </div>
+                <div class="ThreePlans__PlansContainer_new">
+                    <div class="ThreePlans__Plan">
+                        <div class="ThreePlans___Personal__StyledDiv  planHighlight"></div>
+                        <div class="ThreePlans__PlanHeader">
+                            <span class="name">Personal</span>
+                            <span class="price">$17.99</span>
+                            <span class="duration">Monthly</span>
+                        </div>
+                        <div class="ThreePlans__PlanFeatures ">
+                            <span class="feature mainFeature">For Individuals</span>
+                            <span class="feature">30 Templates</span>
+                            <span class="feature">7 Landing Pages</span>
+                            <span class="feature">12 Internal Pages</span>
+                            <span class="feature">Basic Assistance</span>
+                        </div>
+                        <div class="ThreePlans__PlanAction">
+                            <button
+                                class="ThreePlans__BuyNowButton ThreePlans___StyledBuyNowButton roundedBuyNowButton greenBuyNowButton">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="ThreePlans__Plan businessPlan">
+                        <div class="ThreePlans___StyledDiv  planHighlight"></div>
+                        <div class="ThreePlans__PlanHeader">
+                            <span class="name">Business</span>
+                            <span class="price">$37.99</span>
+                            <span class="duration">Monthly</span>
+                        </div>
+                        <div class="ThreePlans__PlanFeatures ">
+                            <span class="feature mainFeature">For Small Businesses</span>
+                            <span class="feature">60 Templates</span>
+                            <span class="feature">15 Landing Pages</span>
+                            <span class="feature">22 Internal Pages</span>
+                            <span class="feature">Priority Assistance</span>
+                        </div>
+                        <div class="ThreePlans__PlanAction">
+                            <button
+                                class="ThreePlans__BuyNowButton ThreePlans___StyledBuyNowButton roundedBuyNowButton">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="ThreePlans__Plan">
+                        <div class="ThreePlans___Enterprise__StyledDiv  planHighlight"></div>
+                        <div class="ThreePlans__PlanHeader">
+                            <span class="name">ENTERPRISE</span>
+                            <span class="price">$57.99</span>
+                            <span class="duration">Monthly</span>
+                        </div>
+                        <div class="ThreePlans__PlanFeatures">
+                            <span class="feature mainFeature">For Large Companies</span>
+                            <span class="feature">90 Templates</span>
+                            <span class="feature">27 Landing Pages</span>
+                            <span class="feature">37 Internal Pages</span>
+                            <span class="feature">Personal Assistance</span>
+                        </div>
+                        <div class="ThreePlans__PlanAction">
+                            <button
+                                class="ThreePlans__BuyNowButton ThreePlans___StyledBuyNowButton roundedBuyNowButton redBuyNowButton">Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
                 <section>
-                    <div class="TwoColumnWithImageAndRating">
-                        <div class="TwoColumnWithImageAndRating__Column">
+                    <div class="TwoColumnWithImageAndRating__Row">
+                        <div class="TwoColumnWithImageAndRating__ImageColumn">
                             <img class="TwoColumnWithImageAndRating__Image"
                                 src="images/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
                         </div>
-                        <div class="TwoColumnWithImageAndRating__Column">
+                        <div class="TwoColumnWithImageAndRating__TextColumn">
                             <h5 class="TwoColumnWithImageAndRating__Subheading">
                                 <span class="purple">TESTIMONIALS</span>
                             </h5>
                             <h2 class="TwoColumnWithImageAndRating__Heading">Our Client <span
                                     class="SaaSProductLandingPage__HighlightedText purple">Love Us.</span></h2>
-                            <p class="TwoColumnWithImageAndRating__Description">Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim
-                                ad minim veniam.</p>
+                            <p class="TwoColumnWithImageAndRating__Description">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua
+                                enim ad minim veniam.</p>
 
-                            <!-- Start of the content that will transition -->
+                            <!-- Testimonial content and controls -->
                             <div class="TwoColumnWithImageAndRating">
                                 <div class="TwoColumnWithImageAndRating__ContentContainer_New">
-                                    <!-- Two separate containers for testimonials -->
-                                    <div class="TwoColumnWithImageAndRating__Content active">
-                                        <!-- Active testimonial content goes here -->
+                                    <div class="TwoColumnWithImageAndRating__Container">
+                                        <!-- Testimonial content will be dynamically injected here -->
                                     </div>
-                                    <div class="TwoColumnWithImageAndRating__Content next">
-                                        <!-- Next testimonial content goes here -->
-                                    </div>
-                                </div>
-                                <div class="TwoColumnWithImageAndRating__Controls">
-                                    <button class="TwoColumnWithImageAndRating__ControlButton fHLbhy"
-                                        onclick="changeTestimonial_new(-1)">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
-                                        </svg>
-                                    </button>
-                                    <button class="TwoColumnWithImageAndRating__ControlButton fHLbhy"
-                                        onclick="changeTestimonial_new(1)">
-                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                                        </svg>
-                                    </button>
                                 </div>
                             </div>
-                            <!-- End of the content that will transition -->
                         </div>
                     </div>
                 </section>
@@ -435,30 +450,122 @@
                 <section>
                     <div class="SingleCol__Column">
                         <div class="SingleCol__HeaderContent">
-                            <h5 class="SingleCol__Subheading bhSrBo">
-                                <span class="SaaSProductLandingPage__Subheading fopWbI">FAQS</span>
+                            <h5 class="SingleCol__Subheading">
+                                <span class="SaaSProductLandingPage__Subheading">FAQS</span>
                             </h5>
-                            <h2 class="SingleCol__Heading fPVwLP gaeLuF">You have
+                            <h2 class="SingleCol__Heading">You have
                                 <span class="SaaSProductLandingPage__HighlightedText">Questions ?</span>
                             </h2>
-                            <p class="SingleCol__Description cvGnkt dQRFzZ">And we have got answers to all of them.
+                            <p class="SingleCol__Description">And we have got answers to all of them.
                                 Lorem ipsum
                                 dolor
                                 sit amet consectetur adipisicing elit. Ad, delectus!</p>
                         </div>
-                        <dl class="SingleCol__FAQSContainer koDYDN">
-                            <div class="SingleCol__FAQ fSCvgS">
+                        <dl class="SingleCol__FAQSContainer">
+                            <div class="SingleCol__FAQ">
                                 <dt class="SingleCol__Question">
-                                    <span class="SingleCol__QuestionText lfzDNh">Are all the templates easily
-                                        customizable ?</span>
-                                    <span class="SingleCol__QuestionToggleIcon-sc-1i4qirp-9 fySvpF"
-                                        style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-chevron-down">
+                                    <span class="SingleCol__QuestionText">Are all the templates easily customizable
+                                        ?</span>
+                                    <span class="SingleCol__QuestionToggleIcon" style="transform: none;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather">
                                             <polyline points="6 9 12 15 18 9"></polyline>
-                                        </svg></span>
+                                        </svg>
+                                    </span>
                                 </dt>
+                                <dd class="SingleCol__Answer" style="opacity: 0; height: 0px; margin-top: 0px;">Lorem
+                                    ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.</dd>
+                            </div>
+                            <div class="SingleCol__FAQ">
+                                <dt class="SingleCol__Question">
+                                    <span class="SingleCol__QuestionText">How long do you usually
+                                        support an standalone template for ?</span><span
+                                        class="SingleCol__QuestionToggleIcon" style="transform: none;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </dt>
+                                <dd class="SingleCol__Answer" style="opacity: 0; height: 0px; margin-top: 0px;">Lorem
+                                    ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.</dd>
+                            </div>
+                            <div class="SingleCol__FAQ">
+                                <dt class="SingleCol__Question">
+                                    <span class="SingleCol__QuestionText">What kind of payment methods do you accept
+                                        ?</span><span class="SingleCol__QuestionToggleIcon" style="transform: none;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </dt>
+                                <dd class="SingleCol__Answer" style="opacity: 0; height: 0px; margin-top: 0px;">Lorem
+                                    ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.</dd>
+                            </div>
+                            <div class="SingleCol__FAQ">
+                                <dt class="SingleCol__Question">
+                                    <span class="SingleCol__QuestionText">Is there a subscribption service to get the
+                                        latest templates ?</span><span class="SingleCol__QuestionToggleIcon"
+                                        style="transform: none;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </dt>
+                                <dd class="SingleCol__Answer" style="opacity: 0; height: 0px; margin-top: 0px;">Lorem
+                                    ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.</dd>
+                            </div>
+                            <div class="SingleCol__FAQ">
+                                <dt class="SingleCol__Question">
+                                    <span class="SingleCol__QuestionText">Are the templates compatible with the React
+                                        ?</span><span class="SingleCol__QuestionToggleIcon" style="transform: none;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </dt>
+                                <dd class="SingleCol__Answer" style="opacity: 0; height: 0px; margin-top: 0px;">Lorem
+                                    ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.</dd>
+                            </div>
+                            <div class="SingleCol__FAQ">
+                                <dt class="SingleCol__Question">
+                                    <span class="SingleCol__QuestionText">Do you really support Internet Explorer 11
+                                        ?</span><span class="SingleCol__QuestionToggleIcon" style="transform: none;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </span>
+                                </dt>
+                                <dd class="SingleCol__Answer" style="opacity: 0; height: 0px; margin-top: 0px;">Lorem
+                                    ipsum dolor sit amet,
+                                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.</dd>
                             </div>
                         </dl>
                     </div>
@@ -468,15 +575,15 @@
                 <section>
                     <div class="GetStarted___StyledContainer">
                         <div>
-                            <div class="GetStarted__PrimaryBackgroundContainer fAVdGR">
-                                <div class="GetStarted__Row jA-DhBo">
-                                    <div class="GetStarted__ColumnContainer fuImxS bISexO">
-                                        <h5 class="GetStarted__Text cNPcGG">Developers all over the world are happily
+                            <div class="GetStarted__PrimaryBackgroundContainer">
+                                <div class="GetStarted__Row">
+                                    <div class="GetStarted__ColumnContainer">
+                                        <h5 class="GetStarted__Text">Developers all over the world are happily
                                             using Treact.</h5>
                                     </div>
-                                    <div class="GetStarted__ColumnContainer fuImxS">
-                                        <a href="" class="GetStarted__Link hmfpka lmHNcs">Get Started</a>
-                                        <a href="" class="ContactUs__Link hmfpka eLyhTh">Contact Us</a>
+                                    <div class="GetStarted__ColumnContainer">
+                                        <a href="" class="GetStarted__Link getstated-contactus-button">Get Started</a>
+                                        <a href="" class="ContactUs__Link getstated-contactus-button">Contact Us</a>
                                     </div>
                                 </div>
                             </div>
@@ -486,126 +593,120 @@
             </div>
             <div>
                 <section>
-                    <div class="FiveColumnWithBackground__Container coJPtL">
-                        <div class="FiveColumnWithBackground__Content iKlRYw">
-                            <div class="FiveColumnWithBackground__FiveColumns hgIwoE">
-                                <div class="FiveColumnWithBackground__Column jhcLjl">
-                                    <h5 class="FiveColumnWithBackground__ColumnHeading kHMfVa">Main</h5>
-                                    <ul class="FiveColumnWithBackground__LinkList kTXhVj">
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Blog</a>
+                    <div class="FiveColumnWithBackground__Container">
+                        <div class="FiveColumnWithBackground__Content">
+                            <div class="FiveColumnWithBackground__FiveColumns">
+                                <div class="FiveColumnWithBackground__Column">
+                                    <h5 class="FiveColumnWithBackground__ColumnHeading">Main</h5>
+                                    <ul class="FiveColumnWithBackground__LinkList">
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Blog</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">FAQs</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">FAQs</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Support</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Support</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">About Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="FiveColumnWithBackground__Column jhcLjl">
-                                    <h5 class="FiveColumnWithBackground__ColumnHeading kHMfVa">PRODUCT</h5>
-                                    <ul class="FiveColumnWithBackground__LinkList kTXhVj">
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Login</a>
-                                        </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Personal</a>
-                                        </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Business</a>
-                                        </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Team</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">About Us</a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="FiveColumnWithBackground__Column jhcLjl">
-                                    <h5 class="FiveColumnWithBackground__ColumnHeading kHMfVa">PRESS</h5>
-                                    <ul class="FiveColumnWithBackground__LinkList kTXhVj">
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Logos</a>
+                                <div class="FiveColumnWithBackground__Column">
+                                    <h5 class="FiveColumnWithBackground__ColumnHeading">PRODUCT</h5>
+                                    <ul class="FiveColumnWithBackground__LinkList">
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Login</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Events</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Personal</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Stories</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Business</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Office</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="FiveColumnWithBackground__Column jhcLjl">
-                                    <h5 class="FiveColumnWithBackground__ColumnHeading kHMfVa">TEAM</h5>
-                                    <ul class="FiveColumnWithBackground__LinkList kTXhVj">
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Career</a>
-                                        </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Founders</a>
-                                        </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Culture</a>
-                                        </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Onboarding</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Team</a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="FiveColumnWithBackground__Column jhcLjl">
-                                    <h5 class="FiveColumnWithBackground__ColumnHeading kHMfVa">LEGAL</h5>
-                                    <ul class="FiveColumnWithBackground__LinkList kTXhVj">
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">GDPR</a>
+                                <div class="FiveColumnWithBackground__Column">
+                                    <h5 class="FiveColumnWithBackground__ColumnHeading">PRESS</h5>
+                                    <ul class="FiveColumnWithBackground__LinkList">
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Logos</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Privacy Policy</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Events</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Terms of
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Stories</a>
+                                        </li>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Office</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="FiveColumnWithBackground__Column">
+                                    <h5 class="FiveColumnWithBackground__ColumnHeading">TEAM</h5>
+                                    <ul class="FiveColumnWithBackground__LinkList">
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Career</a>
+                                        </li>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Founders</a>
+                                        </li>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Culture</a>
+                                        </li>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Onboarding</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="FiveColumnWithBackground__Column">
+                                    <h5 class="FiveColumnWithBackground__ColumnHeading">LEGAL</h5>
+                                    <ul class="FiveColumnWithBackground__LinkList">
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">GDPR</a>
+                                        </li>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Privacy Policy</a>
+                                        </li>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Terms of
                                                 Service</a>
                                         </li>
-                                        <li class="FiveColumnWithBackground__LinkListItem dVxpTx">
-                                            <a href="" class="FiveColumnWithBackground__Link hihAEZ">Disclaimer</a>
+                                        <li class="FiveColumnWithBackground__LinkListItem">
+                                            <a href="" class="FiveColumnWithBackground__Link">Disclaimer</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="FiveColumnWithBackground__Divider kLEFbT"></div>
+                            <div class="FiveColumnWithBackground__Divider"></div>
                             <div class="FiveColumnWithBackground__ThreeColRow">
                                 <div class="FiveColumnWithBackground__LogoContainer">
                                     <img src="images/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt=""
-                                        class="FiveColumnWithBackground__LogoImg hGDlbo">
-                                    <h5 class="FiveColumnWithBackground__LogoText kfBaHq">Treat Inc.</h5>
+                                        class="FiveColumnWithBackground__LogoImg">
+                                    <h5 class="FiveColumnWithBackground__LogoText">Treat Inc.</h5>
                                 </div>
-                                <p class="FiveColumnWithBackground__CopywrightNotice ePeMrm">© 2018 Treact Inc. All
+                                <p class="FiveColumnWithBackground__CopywrightNotice">© 2018 Treact Inc. All
                                     Rights Reserved.</p>
                                 <div class="FiveColumnWithBackground__SocialLinksContainer">
-                                    <a href="https://facebook.com"
-                                        class="FiveColumnWithBackground__SocialLink hCMBWt">
-                                        <svg fill="currentColor"
-                                            viewBox="0 0 24 24">
+                                    <a href="https://facebook.com" class="FiveColumnWithBackground__SocialLink">
+                                        <svg fill="currentColor" viewBox="0 0 24 24">
                                             <path
                                                 d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z">
                                             </path>
                                         </svg></a>
-                                    <a href="https://twitter.com"
-                                        class="FiveColumnWithBackground__SocialLink hCMBWt">
-                                        <svg fill="currentColor"
-                                            viewBox="0 0 24 24">
+                                    <a href="https://twitter.com" class="FiveColumnWithBackground__SocialLink">
+                                        <svg fill="currentColor" viewBox="0 0 24 24">
                                             <path
                                                 d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z">
                                             </path>
                                         </svg></a>
-                                    <a href="https://youtube.com"
-                                        class="FiveColumnWithBackground__SocialLink hCMBWt">
-                                        <svg fill="currentColor"
-                                            viewBox="0 0 24 24">
+                                    <a href="https://youtube.com" class="FiveColumnWithBackground__SocialLink">
+                                        <svg fill="currentColor" viewBox="0 0 24 24">
                                             <path
                                                 d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z">
                                             </path>
